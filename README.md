@@ -26,7 +26,7 @@ touch main.tfbackend
 以下を記載
 
 ```
-bucket  = "my-bucket"      # 任意のバケット名
+bucket  = "my-bucket"      # tfstate保存用バケットの名前
 key     = "main.tfstate"   # 任意のtfstateのファイル名
 region  = "ap-northeast-1" # AWS region
 profile = "my-profile"     # 任意のaws-cliのプロファイル
@@ -42,6 +42,7 @@ touch terraform.tfvars
 ```
 access_key         = ******       # AWSのアクセスキー
 secret_key         = ******       # AWSのシークレットキー
+lambda_bucket_name = "my-bucket2" # Lambda関数アップロード用バケットの名前 
 aws_profile        = "my-profile" # aws-cliのプロファイル
 region             = "ap-northeast-1" # AWS region
 ```
