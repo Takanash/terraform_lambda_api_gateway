@@ -1,6 +1,6 @@
 # 概要
 Terraform の Tutorials Serverless applications をベースに、
-Lambda + ApiGateway でのAPIを作成しました。
+Lambda(Python3.11) + ApiGateway でのAPIを作成しました。
 https://developer.hashicorp.com/terraform/tutorials/aws/lambda-api-gateway
 
 # 前提
