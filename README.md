@@ -6,15 +6,6 @@ https://developer.hashicorp.com/terraform/tutorials/aws/lambda-api-gateway
 # 前提
 - Arm Macでのみ動作確認を行っています
 - aws-cli, jqがローカルで使用できること
-- AWSで以下のポリシーを付与したアカウントおよびアクセスキーを発行すること  
-  （検証用なので実運用ではもう少し権限を絞った方が良い）
-```
-AmazonAPIGatewayAdministrator
-AmazonS3FullAccess
-AWSLambda_FullAccess
-CloudWatchFullAccessV2
-IAMFullAccess
-```
 
 # 前準備
 ## 環境変数の設定
