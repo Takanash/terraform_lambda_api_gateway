@@ -43,12 +43,13 @@ region             = "ap-northeast-1" # AWS region
 sh bin/create_bucket_for_tfstate.sh
 ```
 
-# terraform init
+# リソースの作成
+## terraform init
 ```
 terraform init -backend-config="main.tfbackend"
 ```
 
-# terraform apply
+## terraform apply
 ```
 terraform apply
 ```
